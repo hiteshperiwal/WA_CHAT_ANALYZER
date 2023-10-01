@@ -83,7 +83,7 @@ def emoji_helper(selected_user,df):
 
     emojis = []
     for message in df['message']:
-        emojis.extend([c for c in message if c in emoji.EMOJI_UNICODE_ENGLISH])
+        emojis.extend([c for c in message if c in emoji.EMOJI_DATA])
 
         #pip uninstall emoji
         #pip install emoji==1.7.0
