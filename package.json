@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "pip install streamlit",
+        "build": "pip install streamlit && streamlit run app.py",
         "test": "streamlit run app.py",
         "start": "sh setup.sh && streamlit run app.py"
     },
