@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "build": "pip install streamlit",
-        "test": "echo \"No test specified\" && exit 1",
+        "test": "streamlit run app.py",
         "start": "sh setup.sh && streamlit run app.py"
     },
     "repository": {
